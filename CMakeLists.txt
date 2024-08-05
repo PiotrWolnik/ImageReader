@@ -3,3 +3,4 @@ project(PDFReader)
 
 include(cmake/UpdateSubmodules.cmake)
 add_subdirectory(external)
+add_subdirectory(test)
