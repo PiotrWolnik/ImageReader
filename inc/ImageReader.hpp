@@ -9,7 +9,7 @@ namespace Reader {
     public:
         ImageReader(std::string &img_fullpath, std::string &lang_used);
         void read(std::ostream &os) override;
-        ImageReader() = default;
+        ~ImageReader() = default;
     private:
         OCRModel _ocr_mod;
     };
